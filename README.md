@@ -1,2 +1,3 @@
 My first C language programming
-0-preprocessor | a script that runs a C file through the preprocessor and save the result into another file.
+0x00-hello world 
+0x01. C - Variables, if, else, while
