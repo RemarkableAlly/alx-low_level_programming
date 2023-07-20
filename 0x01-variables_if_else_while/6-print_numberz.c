@@ -5,11 +5,13 @@
  * Return: Always return 0 (Success)
  */
 
-int main(void){
+int main(void)
+{
 
 	int x;
 
-	while (x < 10){
+	while (x < 10)
+	{
 		putchar('0' + x);
 		x++;
 	}
