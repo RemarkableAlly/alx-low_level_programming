@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * print numbers that are in base 10
- * start from 0
+ * main - Entry point
+ * Return: Always return 0 (Success)
  */
 
 int main(void)
@@ -11,8 +11,8 @@ int main(void)
 
 	for (x = 0; x < 10; x++)
 	{
-		printf("%d ", x);
+		printf("%d",x);
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
