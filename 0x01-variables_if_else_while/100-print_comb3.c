@@ -14,7 +14,7 @@ int main(void)
 		int tens = x / 10;
 		int ones = x % 10;
 
-		if (tens != ones)
+		if (tens < ones)
 		{
 			putchar('0' + tens);
 			putchar('0' + ones);
