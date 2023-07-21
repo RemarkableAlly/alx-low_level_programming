@@ -16,14 +16,14 @@ int main(void)
 
 		if (tens != ones)
 		{
-			putchar('0' + ones);
 			putchar('0' + tens);
-		}
+			putchar('0' + ones);
 		
-		if (x < 89)
-		{
-			putchar(',');
-			putchar(' ');
+			if (x < 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 
 		x++;
