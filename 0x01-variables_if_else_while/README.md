@@ -8,3 +8,4 @@ All 0x01-variable_if_else_while scripts in the readme file
 6-print_numberz | a program that prints all single digit numbers of base 10 starting from 0 using putchar and not declearing char
 7-print_tebahpla.c | a program that prints the lowercase alphabet in reverse
 8-print_base16.c | a program that prints all the numbers of base 16 in lowercase
+9-print_comb.c | a program that prints all possible combinations of single-digit numbers separted by a ','
