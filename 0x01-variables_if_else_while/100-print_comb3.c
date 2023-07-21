@@ -11,8 +11,14 @@ int main(void)
 
 	while (x < 90)
 	{
-		putchar('0' + (x / 10));
-		putchar('0' + (x % 10));
+		int tens = x / 10;
+		int ones = x % 10;
+
+		if (tens != ones)
+		{
+			putchar('0' + ones);
+			putchar('0' + tens);
+		}
 		
 		if (x < 89)
 		{
