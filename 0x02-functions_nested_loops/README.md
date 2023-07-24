@@ -10,3 +10,4 @@ created a main.h file (header), places all the prototypes in the file
 5-sign.c | a function that prints the sign of a number, prints + if n is greater than zero, prints 0 if n is zero and prints - if n is less than zero
 6-abs.c | a function that computes the absolute value of an integer
 7-last_digit.c | a function that prints the last digit of a number
+8-24_hours.c | a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
