@@ -7,3 +7,4 @@ created a main.h file (header), places all the prototypes in the file
 2-alphabet_x10.c | a function that prints 10 times the alphabet, in lowercase
 3-islower.c | a function that checks for lowercase character
 4-isalpha.c |  a function that checks for alphabetic character
+5-sign.c | a function that prints the sign of a number, prints + if n is greater than zero, prints 0 if n is zero and prints - if n is less than zero
