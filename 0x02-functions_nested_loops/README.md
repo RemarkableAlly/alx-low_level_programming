@@ -6,3 +6,4 @@ created a main.h file (header), places all the prototypes in the file
 1-alphabet.c | a function that prints the alphabet, in lowercase
 2-alphabet_x10.c | a function that prints 10 times the alphabet, in lowercase
 3-islower.c | a function that checks for lowercase character
+4-isalpha.c |  a function that checks for alphabetic character
