@@ -9,3 +9,4 @@ created a main.h file (header), places all the prototypes in the file
 4-isalpha.c |  a function that checks for alphabetic character
 5-sign.c | a function that prints the sign of a number, prints + if n is greater than zero, prints 0 if n is zero and prints - if n is less than zero
 6-abs.c | a function that computes the absolute value of an integer
+7-last_digit.c | a function that prints the last digit of a number
