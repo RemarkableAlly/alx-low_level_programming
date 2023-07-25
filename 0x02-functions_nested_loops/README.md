@@ -11,3 +11,4 @@ created a main.h file (header), places all the prototypes in the file
 6-abs.c | a function that computes the absolute value of an integer
 7-last_digit.c | a function that prints the last digit of a number
 8-24_hours.c | a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+10-add.c | a function that adds two integers and returns the result
