@@ -3,6 +3,9 @@
 /**
  * add - adds two integers and returns the result
  *
+ * @x: first value to be computed
+ * @y: second value to be computed 
+ *
  * Return: Always return the sum
  */
 
