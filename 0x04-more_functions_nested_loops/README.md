@@ -12,3 +12,4 @@ created a main.h file with the header
 a program that prints the numbers from 1 to 100, multiples of three print Fizz instead of the number and for the multiples of five print Buzz. multiples of both three and five print FizzBuzz
 a function that prints a triangle, size is the size of the triangle If size is 0 or less, the function should print only a new line
 101-print_number.c | a function that prints an integer
+101-print_number.c | a function that prints an integer
