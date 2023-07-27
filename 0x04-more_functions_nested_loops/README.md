@@ -13,3 +13,4 @@ a program that prints the numbers from 1 to 100, multiples of three print Fizz i
 a function that prints a triangle, size is the size of the triangle If size is 0 or less, the function should print only a new line
 101-print_number.c | a function that prints an integer
 101-print_number.c | a function that prints an integer
+100-prime_factor.c | a program that finds and prints the largest prime factor of the number 612852475143
