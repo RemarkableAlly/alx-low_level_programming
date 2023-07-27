@@ -10,3 +10,4 @@ created a main.h file with the header
 7-print_diagonal.c | a function that draws a diagonal line on the terminal, n is the number of times the character \ should be printed
 8-print_square.c | a function that prints a square, followed by a new line, size is the size of the square, If size is 0 or less, the function should print only a new line
 a program that prints the numbers from 1 to 100, multiples of three print Fizz instead of the number and for the multiples of five print Buzz. multiples of both three and five print FizzBuzz
+a function that prints a triangle, size is the size of the triangle If size is 0 or less, the function should print only a new line
