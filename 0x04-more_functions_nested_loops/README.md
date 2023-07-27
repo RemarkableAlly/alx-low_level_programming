@@ -8,3 +8,4 @@ created a main.h file with the header
 5-more_numbers.c | a function that prints 10 times the numbers, from 0 to 14
 6-print_line.c | a function that draws a straight line in the terminal, n is the number of times the character _ should be printed
 7-print_diagonal.c | a function that draws a diagonal line on the terminal, n is the number of times the character \ should be printed
+8-print_square.c | a function that prints a square, followed by a new line, size is the size of the square, If size is 0 or less, the function should print only a new line
