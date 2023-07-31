@@ -1,32 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <time.h>
 
 /**
- * Function to generate a random character from a given set of characters
+ * main - program that generates random valid
+ * passwords for the program 101-crackme
+ *
+ * Return: Always 0 (Success)
  */
+int main(void)
+{
+	int pass[100];
+	int x, y;
+       	int sum = 0;	
 
- char getRandomChar(const char *characters) {
-    return characters[rand() % strlen(characters)];
-}
+	srand(time(NULL));
 
-//generate a random valid password of a given length
-void generateRandomPass(int length) {
-    const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+{}[]|:;<>,.?/";
-    srand(time(NULL));
-
-    for (int i = 0; i < length; i++) {
-        putchar(getRandomChar(charset));
-    }
-
-    putchar('\n');
-}
-
-int main() {
-    int passwordLength = 12; // Change the length as per your requirements
-
-    generateRandomPass(passwordLength);
-
-    return 0;
+	for (x = 0; x < 100; x++)
+	{
+		pass[x] = rand() % 78;
+		sum += (pass[x] + '0');
+		putchar(pass[x] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			y = 2772 - sum - '0';
+			sum += y;
+			putchar(y + '0');
+			break;
+		}
+	}
+	putchar('\n');
+	return (0);
 }
