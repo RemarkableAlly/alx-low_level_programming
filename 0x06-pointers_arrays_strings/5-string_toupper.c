@@ -1,23 +1,21 @@
 #include "main.h"
 /**
- * _strcmp - compare string values
- * @s1: input value
- * @s2: input value
+ * string_toupper - change all lowercase to uppercase
+ * @n: pointer
  *
- * Return: s1[i] - s2[i]
+ * Return: n
  */
-int _strcmp(char *s1, char *s2)
+char *string_toupper(char *n)
 {
 	int i;
 
 	i = 0;
-	while (s1[i] != '\0' && s2[i] != '\0')
+	while (n[i] != '\0')
 	{
-		if (s1[i] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] = n[i] - 32;
 		i++;
 	}
-	return (0);
+	return (n);
 }
+
